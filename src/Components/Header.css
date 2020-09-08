@@ -2,10 +2,13 @@
     background: #131921;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .header__logo{
-    width: 100px;
+    width: 30px;
     margin: 18px 20px 0 20px;
 }
 
@@ -60,3 +63,4 @@
     display: flex;
     align-items: center;
 }
+

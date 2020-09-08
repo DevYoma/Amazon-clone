@@ -53,7 +53,7 @@ const Header = () => {
                 </Link>
 
                 {/* 4th link */}
-                <Link className="header__link">
+                <Link to="/checkout" className="header__link">
                     <div className="header__optionBasket">
                         {/* shopping basket icon */}
                         <ShoppingBasketIcon />
