@@ -1,10 +1,15 @@
 .product{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
     max-height: 400px;
     min-width: 100px;
-    background: blue;
+    background:whitesmoke;
     margin: 10px;
+    z-index: 1;
+    padding: 20px;
+    width: 100%;
 }
 
 .product__info{
