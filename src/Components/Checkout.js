@@ -4,10 +4,12 @@ import './Checkout.css';
 import CheckoutProduct from './CheckoutProduct';
 import Subtotal from './Subtotal';
 
+
 const Checkout = () => {
     
     //dispatch is needed whenever you want to manipulate data like add, delete, update  🙃
-    const [{basket}, dispatch] = useStateValue()
+    const [{basket}, dispatch] = useStateValue();
+
 
     return ( 
         <div className="checkout">
