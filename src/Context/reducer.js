@@ -1,25 +1,8 @@
 //this is where all the data logic goes
 //so all the parameters in the useReducer hook is defined in this file(reducer.js)
 
-import LeanStartUp from '../assets/LeanStartUp.jpg';
-
-
 export const initialState = {
-    basket: [{
-        id: '39393939',
-        title: 'Introduction to Computer Programming using the C# programming language',
-        price: 600.00,
-        rating: 4,
-        image: LeanStartUp
-    },
-    {
-        id: '39393939',
-        title: 'Introduction to Computer Programming using the JAVA programming language',
-        price: 600.00,
-        rating: 4,
-        image: LeanStartUp
-    }
-    ],
+    basket: [],
     user: null,
 }
 
@@ -31,6 +14,12 @@ export const getBasketTotal = (basket) => (
 function reducer(state, action){
     console.log(action);
     switch(action.type){
+        case 'SET_USER':
+            //update the user when logged in or out
+            return {
+                ...state,
+                user: action.user
+            }
         case 'ADD_TO_BASKET':
             //login for adding item to basket
             return {
