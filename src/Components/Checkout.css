@@ -1,9 +1,10 @@
-/* .checkout{
+.checkout{
     display: flex;
+    justify-content: space-between;
     padding: 20px;
     background: white;
     height: max-content;
-} */
+}
 
 .checkout__title{
     margin-right: 10px;
