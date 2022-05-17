@@ -1,68 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Amazon Clone
+A web applications similar to amazon, where you get to sign up, sign in, add and remove items to cart
 
-## Available Scripts
+## How to run the app
+1. Fork or download the app(by cloning it to your local maching), then open your cli
+2. install all the dependencies using the `yarn add` command
+3. Stte the web server using the `yarn start` command, the app will be served at http://localhost:3000/
+4. Visit the url http://localhost:3000/ in your browser to view the app
 
-In the project directory, you can run:
 
-### `npm start`
+## Stack 
+- React JS
+- Netlify Hosting
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## What the app looks like
+![amazonShot3](https://user-images.githubusercontent.com/47899828/168843500-58a3a841-f740-471f-a476-89eb5392f142.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![amazonShot4](https://user-images.githubusercontent.com/47899828/168843512-5b1d3da8-0143-44fb-baa8-9fe0cfe70e37.png)
 
-### `npm test`
+![amazonShot1](https://user-images.githubusercontent.com/47899828/168843518-1e185a51-6951-47e1-97c9-e90fde887c45.png)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![amazonShot2](https://user-images.githubusercontent.com/47899828/168843524-f38d20b1-6a8c-4a9f-8f6c-da77e5b0661a.png)
